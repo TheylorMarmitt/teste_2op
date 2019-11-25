@@ -1,0 +1,232 @@
+/* Fonte */
+*{
+    font-family: 'Nunito-Regular', sans-serif;
+}
+
+/* Tamanho títulos */
+h1{
+    font-size: 50px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{
+    font-size: 20px;
+}
+
+h5{
+    font-size: 15px;
+}
+
+/* Cores */
+.azul-bg{
+    background-color:#05233C;
+}
+
+.pink-bg{
+    background-color: #F92D50;
+}
+
+.branco-bg{
+    background-color: #fff;
+}
+
+.azul-fraco-bg{
+    background-color: #ECF7F9;
+}
+
+.azul-fraco{
+    color: #ECF7F9;
+}
+
+.amarelo{
+    color: #face00;
+}
+
+.cor-subtitulo{
+    color: #A0B5C4;
+}
+
+/* margens e paddings*/
+.mb-20{
+    margin-bottom: 20px;
+}
+
+.padding-conteudo{
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+/* menu */
+.menu{
+    background-color:#05233C;
+    padding-top: 20px;
+    margin: 0 auto;
+}
+
+.links li a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #688098;
+}
+
+.links li a:hover{
+    background-color: #05233C;
+}
+
+.links li a:focus{
+    background-color: #05233C;
+}
+
+/* Inicio */
+.inicio{
+    padding-top: 80px;
+    height: 420px;
+    color: #fff;
+}
+
+/* Botão */
+.botao{
+    font-size: 16px;
+    width: 200px;
+    height: 45px;
+    border-top-right-radius: 18px;
+    border-bottom-right-radius: 18px;
+    border-top-left-radius: 18px;
+    border-bottom-left-radius: 18px;
+    margin-top: 20px;
+}
+
+.botao:hover{
+    color: #fff;
+}
+
+.botao:focus{
+    color: #fff
+}
+
+.inicio div button:hover{
+    background-color: #d42442 ;
+}
+
+/* Serviços */
+.servicos{
+    color: #05233C;
+}
+
+.servicos_opcoes{
+    padding: 0px 35px 0px 35px;
+}
+
+.servicos_opcoes p{
+    line-height: 1.8;
+}
+
+.numero{
+    height: 250px;
+    font-size: 250px;
+    font-weight: bolder;
+}
+
+.divisao{
+    width: 150px;
+    border: solid 1px #32C7BE;
+}
+
+/* Portifólio */
+.portifolio{
+    color: #05233C;
+}
+
+.portifolio .container{
+    margin-top: 40px;
+}
+
+.bloco{
+    height: 200px;
+    background-color: #ffffff;
+    color: #32C7BE;
+    background-clip: content-box;
+    padding: 0;
+    
+}
+
+.bloco:hover{
+    background-color: #32C7BE;
+    color: #ffffff;
+}
+
+.bloco p{
+    font-size: 18px;
+    padding-top: 90px;
+}
+
+/* Contato */
+.contato{
+    color: #05233C;
+}
+
+.contato_cabecalho{
+    width: 600px;
+}
+
+.contato div hr{
+    margin-bottom: 20px;
+}
+
+.formulario_tamanho{
+    width: 750px;
+}
+
+.formulario{
+    margin-top: 50px;
+}
+
+.form-control{
+    border: 1px solid #05233C;
+    border-radius: 0px;
+}
+
+.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #05233C;
+    opacity: 1;
+    font-size: 16px;
+}
+
+.form-group button{
+    margin-top: 35px;
+}
+
+.form-group button:hover{
+    background-color: #072f52 ;
+}
+
+
+/* Rodapé */
+.footer{
+    height: 100px;
+    color: #fff;
+    font-size: 12px;
+    padding-top: 45px;
+}
+
+.footer span a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px){
+    .formulario_tamanho{
+        width: 90%;
+    }
+
+    .contato_cabecalho{
+        width: 80%;
+    }
+}
